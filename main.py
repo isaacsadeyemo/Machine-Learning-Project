@@ -47,7 +47,7 @@ tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 model = RobertaModel.from_pretrained('roberta-base')
 
 data = []
-train_folder_path = '/Users/saadelkadri/Downloads/Data/datasets-v5/tasks-2-3/train'
+train_folder_path = '/Users/isaacsadeyemo/Downloads/Data/datasets-v5/tasks-2-3/train'
 
 # Iterates over file reading the article and extracts segments of text from labels (if found)
 for file_name in os.listdir(train_folder_path):
